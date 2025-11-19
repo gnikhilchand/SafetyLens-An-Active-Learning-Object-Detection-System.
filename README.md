@@ -25,5 +25,5 @@ The system consists of three core components:
 
 ### 1. Clone the Repository
 ```bash
-git clone <your-repo-url>
+git clone [<your-repo-url>](https://github.com/gnikhilchand/SafetyLens-An-Active-Learning-Object-Detection-System..git)
 cd safety_lens
