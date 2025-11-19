@@ -27,3 +27,35 @@ The system consists of three core components:
 ```bash
 git clone https://github.com/gnikhilchand/SafetyLens-An-Active-Learning-Object-Detection-System..git
 cd safety_lens
+```
+
+### 2. Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+### 3. Run the Backend (FastAPI)
+Start the inference server:
+```bash
+uvicorn app.main:app --reload
+```
+
+4. Run the Frontend (Streamlit)
+Open a new terminal and run:
+```bash
+streamlit run frontend/ui.py
+```
+### 📂 Project Structure
+```bash
+safety_lens/
+├── app/
+│   ├── main.py          # FastAPI endpoints (Entry point)
+│   └── detector.py      # YOLO logic + Active Learning Trigger
+├── frontend/
+│   └── ui.py            # Streamlit Dashboard
+├── data_lake/           # Storage for edge-case images (Low confidence)
+├── Dockerfile           # Containerization config
+├── requirements.txt     # Project dependencies
+└── README.md
+```
+### 📸 Screenshots
+![OFDM Constellations](Figure_2.png)
