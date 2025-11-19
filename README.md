@@ -58,4 +58,4 @@ safety_lens/
 └── README.md
 ```
 ### 📸 Screenshots
-![OFDM Constellations](Figure_2.png)
+![OFDM Constellations](Screenshot.png)
